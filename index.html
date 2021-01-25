@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- canvas의 width, height값을 inline으로 지정해줘야 캔버스 api가 제대로 작동하는 거 같음.. 나중에 canvas 따로 공부할 때 확인해볼것 -->
+    <canvas id="canvas" width="800" height="800"></canvas>
+    <div class="toolbox">
+      <button id="increase">+</button>
+      <span id="size">30</span>
+      <button id="decrease">-</button>
+      <input type="color" id="color" />
+      <button id="clear">❌</button>
+    </div>
+  </body>
+</html>
